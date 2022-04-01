@@ -1,0 +1,88 @@
+.container {
+  background-color: whitesmoke;
+  color: black;
+  width: 80vw;
+  padding: 1rem;
+  position: absolute;
+  top: 10vh;
+  left: 10vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 1rem;
+}
+
+.sub-container {
+  margin-bottom: 0.5rem;
+  display: flex;
+}
+
+.seat {
+  margin: 0.2rem;
+  font-size: 100%;
+}
+.submit {
+  font-size: 140%;
+}
+
+.active {
+  background-color: #198754;
+  color: white;
+}
+
+.disabled {
+  cursor: not-allowed;
+  color: black;
+}
+
+.seat:disabled {
+  background-color: grey;
+  border-color: black;
+}
+
+@media (max-width: 720px) {
+  .container {
+    width: 90vw;
+    left: 5vw;
+    padding: 0.5rem;
+  }
+}
+
+@media (max-width: 580px) {
+  .container {
+    width: 100vw;
+    padding: 0.5rem;
+    left: 0;
+  }
+  .seat {
+    font-size: 80%;
+  }
+  .submit {
+    font-size: 125%;
+  }
+}
+
+@media (max-width: 480px) {
+  .seat {
+    font-size: 80%;
+
+    padding: 0 8px 0 8px;
+  }
+}
+
+@media (max-width: 380px) {
+  .seat {
+    font-size: 60%;
+    padding: 0 4px 0 4px;
+    margin: 0.2rem;
+  }
+  .sub-container {
+    margin: 1rem;
+  }
+  .container {
+    top: 5vh;
+  }
+  .submit {
+    font-size: 100%;
+  }
+}

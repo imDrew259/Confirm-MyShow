@@ -1,0 +1,136 @@
+.form-container {
+  position: absolute;
+  top: 5vh;
+  width: 90vw;
+  left: 5vw;
+  padding: 1rem;
+  border-radius: 1rem;
+  font-size: 1rem;
+  font-weight: 600;
+  border: 20px solid gainsboro;
+  z-index: 10;
+}
+
+.form-control {
+  text-align: center;
+  margin-bottom: 1rem;
+  border-bottom: 3px solid #d13bbe;
+  border-radius: 10%;
+}
+
+.input-container {
+  width: 90%;
+  margin: auto;
+  margin-bottom: 1rem;
+  text-align: left;
+}
+
+.input {
+  width: 100%;
+  font-size: 120%;
+  font-weight: 500;
+}
+
+.button {
+  display: block;
+  padding: 0.2rem 1rem;
+  margin: auto;
+  text-align: center;
+  background-color: #d13bbe;
+  color: white;
+  font-size: 120%;
+  margin-bottom: 1rem;
+}
+
+.time-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.time-lang {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding: 0.2rem 1rem;
+}
+
+.time {
+  font-size: 80%;
+}
+
+.option-block {
+  width: auto;
+  font-size: 80%;
+}
+
+.active {
+  border-top: 4px solid #d13bbe;
+}
+
+.lc {
+  font-size: 80%;
+  text-align: center;
+  cursor: pointer;
+}
+
+.link-page,
+.link-page:hover,
+.link-page:visited {
+  color: white;
+  font-size: 80%;
+}
+
+.header {
+  cursor: pointer;
+  color: white;
+  font-size: 150%;
+}
+
+.nav-link {
+  cursor: pointer;
+  color: white;
+  font-size: 150%;
+}
+
+.error {
+  font-size: 70%;
+  color: mediumvioletred;
+}
+
+.icon {
+  background-color: black;
+}
+
+.label {
+  display: block;
+}
+
+.icon-label-block {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+}
+
+.add {
+  font-size: 150%;
+}
+
+@media (max-width: 600px) {
+  .form-container {
+    width: 96vw;
+    left: 1vw;
+    right: 3vw;
+    border: 10px solid gainsboro;
+  }
+}
+
+@media (max-width: 350px) {
+  .form-container {
+    width: 100vw;
+    font-size: 0.8rem;
+    border: 0px;
+  }
+  .input-container {
+    width: 100%;
+  }
+}

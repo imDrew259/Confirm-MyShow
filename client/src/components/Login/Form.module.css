@@ -1,0 +1,100 @@
+.form-container {
+  position: absolute;
+  background-color: black;
+  color: white;
+  position: absolute;
+  top: 20vh;
+  width: 50vw;
+  left: 25vw;
+  padding: 1rem;
+  border-radius: 1rem;
+  font-size: 1rem;
+  font-weight: 600;
+  border: 20px solid gainsboro;
+  z-index: 10;
+}
+
+.form-control {
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  justify-content: space-around;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.input-container {
+  width: 90%;
+  margin: auto;
+  margin-bottom: 1rem;
+  text-align: left;
+}
+
+.input {
+  width: 100%;
+  font-size: 120%;
+  font-weight: 500;
+}
+
+.button {
+  display: block;
+  padding: 0.2rem 1rem;
+  margin: auto;
+  text-align: center;
+  background-color: #d13bbe;
+  color: white;
+  font-size: 120%;
+  margin-bottom: 1rem;
+}
+
+.active {
+  border-top: 4px solid #d13bbe;
+}
+
+.lc {
+  font-size: 80%;
+  text-align: center;
+  cursor: pointer;
+}
+
+.link-page,
+.link-page:hover,
+.link-page:visited {
+  color: white;
+  font-size: 80%;
+}
+
+.link-button,
+.link-button:hover {
+  cursor: pointer;
+  text-decoration: none;
+  color: white;
+  font-size: 150%;
+}
+
+.nav-link {
+  cursor: pointer;
+  color: white;
+  font-size: 150%;
+}
+
+.error {
+  font-size: 70%;
+  color: mediumvioletred;
+}
+
+@media (max-width: 600px) {
+  .form-container {
+    width: 80vw;
+    left: 10vw;
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 350px) {
+  .form-container {
+    width: 80vw;
+    left: 10vw;
+    font-size: 0.8rem;
+  }
+}

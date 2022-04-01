@@ -1,0 +1,148 @@
+.genre {
+  border: solid;
+  border-radius: 30px;
+  padding: 0px 6px;
+  color: gainsboro;
+  margin-right: 4px;
+}
+
+.container {
+  background-color: #241b1b;
+  padding: 1rem;
+  font-size: 1rem;
+}
+
+.heading {
+  margin-bottom: 6px;
+  font-size: 250%;
+  color: aliceblue;
+  text-shadow: -2px -2px deepskyblue;
+}
+
+.genres-container {
+  margin-bottom: 0.8rem;
+}
+
+.parah {
+  font-size: 100%;
+  margin-bottom: 2px;
+}
+
+.sub-container {
+  color: black;
+  background-color: whitesmoke;
+  font-size: 100%;
+  font-weight: 640;
+  display: flex;
+}
+
+.date-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.date-items-container {
+  width: 10vw;
+  margin: 0 0.4rem;
+  background-color: white;
+  padding: 0.2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  cursor: pointer;
+}
+
+.date-item {
+  margin: 0;
+  pointer-events: none;
+}
+
+.option-block {
+  width: fit-content;
+}
+
+.select-option {
+  font-size: 90%;
+}
+
+.theatre-container {
+  padding: 1rem;
+  background-color: #241b1b;
+  display: flex;
+  flex-direction: column;
+}
+
+.theatre-details {
+  display: flex;
+  align-content: center;
+  justify-content: space-between;
+  margin-bottom: 1rem;
+  border-bottom: 1px solid;
+  border-radius: 20px;
+  padding: 1rem 2rem;
+  align-items: center;
+}
+
+.show-details {
+  display: flex;
+  flex-direction: row;
+}
+
+.timings {
+  display: flex;
+  margin-bottom: 1rem;
+}
+
+.pointer {
+  cursor: pointer;
+}
+
+.time {
+  margin: 0rem;
+  border: 1px solid whitesmoke;
+  margin-right: 10px;
+  padding: 0.5rem 1rem;
+}
+
+.active-date {
+  background-color: rgb(134 145 247);
+}
+
+.spinner {
+  display: block;
+  margin: 1rem auto;
+}
+
+.home {
+  display: block;
+  margin: 1rem auto;
+  background-color: #241b1b;
+}
+
+@media (max-width: 520px) {
+  .container {
+    font-size: 0.9rem;
+  }
+  .sub-container {
+    flex-direction: column;
+  }
+  .date-items-container {
+    width: 25vw;
+  }
+  .option-block {
+    margin-top: 0.4rem;
+    width: 50vw;
+  }
+}
+
+@media (max-width: 350px) {
+  .container {
+    font-size: 0.6rem;
+  }
+  .theatre-details {
+    flex-direction: column;
+    text-align: center;
+  }
+}

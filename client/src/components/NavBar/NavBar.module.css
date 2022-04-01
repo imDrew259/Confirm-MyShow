@@ -1,0 +1,77 @@
+.navbar {
+  background-color: gainsboro;
+  padding: 0.75rem;
+}
+
+.container {
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: row;
+  align-content: center;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 1rem;
+}
+.icon {
+  color: black;
+  font-size: 150%;
+}
+
+.brand {
+  font-size: 200%;
+  margin: 0;
+  color: black;
+}
+
+.button {
+  margin: 0 0.2rem;
+  background-color: black;
+  color: #dfdbdb;
+  font-size: 120%;
+}
+
+.input {
+  font-size: 120%;
+}
+
+.signIn {
+  cursor: pointer;
+  padding: 0.3rem 0.5rem;
+}
+.signIn:hover {
+  color: white;
+}
+
+.icon {
+  font-weight: bolder;
+}
+
+.dropdown-form {
+  margin-top: 0.2rem;
+  text-align: center;
+  font-size: 1rem;
+}
+
+.dropdown-input {
+  width: 65vw;
+  padding: 0.3rem;
+}
+
+.dropdown-button {
+  border: 2px solid gainsboro;
+  padding: 0.3rem 0.5rem;
+}
+
+@media (max-width: 500px) {
+  .container,
+  .dropdown-form {
+    font-size: 0.8rem;
+  }
+}
+
+@media (max-width: 350px) {
+  .container,
+  .dropdown-form {
+    font-size: 0.6rem;
+  }
+}

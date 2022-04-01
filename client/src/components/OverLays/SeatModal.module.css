@@ -1,0 +1,89 @@
+.modal {
+  background-color: white;
+  color: black;
+  text-align: center;
+  width: 40%;
+  position: fixed;
+  left: 30%;
+  top: 10vh;
+  z-index: 100;
+  padding: 1rem;
+  font-size: 1rem;
+}
+
+.pricing {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.price {
+  font-weight: 700;
+  font-size: 100%;
+}
+
+.seat-selection {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 1rem;
+}
+
+.seats {
+  padding: 0.3rem;
+  border-radius: 50% 50%;
+  font-size: 100%;
+  font-weight: 700;
+}
+.seats:hover {
+  background-color: #f84644;
+  color: white;
+  cursor: pointer;
+}
+
+.modal-image {
+  height: 5rem;
+}
+
+.submit-seat-button {
+  padding: 0.5rem;
+  border-radius: 20px;
+  background-color: #f84644;
+  color: white;
+}
+
+.active {
+  background-color: #f84644;
+}
+
+.button,
+.button:hover,
+.button:active,
+.button:visited {
+  text-decoration: none;
+  color: white;
+}
+
+.fmodal {
+  top: 15vh;
+  border: 10px solid #f84644;
+}
+
+.message {
+  font-weight: 500;
+}
+
+@media (max-width: 600px) {
+  .modal {
+    width: 80vw;
+    left: 10vw;
+  }
+}
+
+@media (max-width: 300px) {
+  .modal {
+    width: 90vw;
+    left: 5vw;
+    padding: 0.5rem;
+  }
+}
